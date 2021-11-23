@@ -1,0 +1,18 @@
+{ 
+  "plugins": ["react", "@typescript-eslint", "react-hooks"],
+  "rules": {
+    "react/prop-types": "off",
+    "prettier/prettier": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "react/no-unescaped-entities": 0,
+    "react/display-name": 0,
+    "react-hooks/rules-of-hooks": "warn",
+    "react/jsx-key": [2, {"checkFragmentShorthand": false, "checkKeyMustBeforeSpread": true}],
+    "react/jsx-no-undef": 2,
+    "no-console": "warn",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  },
+  "parser": "@typescript-eslint/parser"
+}
